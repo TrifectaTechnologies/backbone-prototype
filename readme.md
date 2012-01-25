@@ -3,6 +3,18 @@
 This is an example app using Backbone.js with an AmplifyJS AJAX back-end abstraction layer.  This is an 
 experiment to serve as a prototype and example for future development directions.
 
+## Usage
+
+See the [HTML5 boilerplate docs](http://html5boilerplate.com/docs/) for more details.
+
+### Dev version:
+
+Point apache at the root directory.
+
+### Production Build Version:
+
+From the build directory, run `ant build`, point apache at the publish directory. 
+
 ## License
 
 ### Major components:
@@ -19,4 +31,4 @@ experiment to serve as a prototype and example for future development directions
 
 ### Everything else:
 
-MIT License
+Copyright 2012 Trifecta Technologies, Inc. - MIT License
