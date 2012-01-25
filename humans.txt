@@ -3,18 +3,15 @@
 
 
 /* TEAM */
-  <your title>: <your name>
-  Site:
-  Twitter:
-  Location:
-
-/* THANKS */
-  Names (& URL):
+  Solutions Architect: Eric DeLabar
+  Site: http://www.trifecta.com/
+  Twitter: @edelabar
+  Location: Lehigh Valley, PA
 
 /* SITE */
   Standards: HTML5, CSS3
-  Components: Modernizr, jQuery
-  Software:
+  Components: HTML5 Boilerplate, Modernizr, jQuery, BackboneJS, AmplifyJS, Jasmine
+  Software: Selenium, Apache
 
 
 
