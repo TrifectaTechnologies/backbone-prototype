@@ -11,3 +11,25 @@ if (navigator.userAgent.match(/iPhone/i) || navigator.userAgent.match(/iPad/i)) 
 
 /* Author: Eric DeLabar */
 
+var tti = tti || {};
+tti.routers = tti.routers || {};
+tti.models = tti.models || {};
+tti.views = tti.views || {};
+
+// Main IIFE (inline immediately-executing function -- used to control jQuery/$ scope predictably)
+(function($,undefined){
+	
+	// onDOMReady
+	$(function(){
+
+		$.getJSON('/restful/fortune', function(response) {
+			if ( response.status == 'success') {
+				$('#fortune').html( 'Your fortune is: ' + response.fortune );
+			} else {
+				$('#fortune').html( 'Things do not look good, no fortune was told' );
+			}
+		});
+
+	})
+	
+})(jQuery);
