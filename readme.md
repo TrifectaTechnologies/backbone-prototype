@@ -3,6 +3,11 @@
 This is an example app using Backbone.js with an AmplifyJS AJAX back-end abstraction layer.  This is an 
 experiment to serve as a prototype and example for future development directions.
 
+## Reference/Thanks:
+
+* Check out responsive.html for a simple visual media query test. (Thanks (http://bricss.net/post/16538278376/simple-responsive-design-test-page)!)
+* Current backbone.js example based on this [article](http://andyet.net/blog/2010/oct/29/building-a-single-page-app-with-backbonejs-undersc/) and this [gist](https://gist.github.com/1316575)
+
 ## Usage
 
 See the [HTML5 boilerplate docs](http://html5boilerplate.com/docs/) for more details.
@@ -27,6 +32,7 @@ From the build directory, run `ant build`, point apache at the publish directory
 * AmplifyJS: GPL/MIT on [GitHub](https://github.com/appendto/amplify)
 * Backbone.js: MIT on [GitHub](https://github.com/documentcloud/backbone)
 * Underscore.js: MIT on [GitHub](http://github.com/documentcloud/underscore)
+* Mustache.js: MIT on [GitHub](https://github.com/janl/mustache.js)
 * Jasmine: MIT on [GitHub](https://github.com/pivotal/jasmine)
 * jasmine-jquery: MIT on [GitHub](https://github.com/velesin/jasmine-jquery)
 * jquery-mockjax: GPL/MIT license [GitHub](https://github.com/appendto/jquery-mockjax)
