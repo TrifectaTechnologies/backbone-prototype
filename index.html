@@ -22,6 +22,16 @@
 
 	</footer> 
 
+	<script id="movieView" type="text/html">
+		<li id="movie_{{ cid }}"><span class="title">{{ title }}</span> <span>{{ format }}</span>   <a href="#movies/remove/{{ cid }}">x</a></li>
+	</script>
+	
+	<script id="appView" type="text/html">
+		<h1>Movie App</h1>
+		<a href="#movies/add">add new movie</a>
+		<ul id="movieList"></ul>
+	</script>
+
 	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
 	<script>window.jQuery || document.write('<script src="js/libs/jquery-1.7.1.min.js"><\/script>')</script>
 

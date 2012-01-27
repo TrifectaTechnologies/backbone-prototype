@@ -33,6 +33,7 @@ From the build directory, run `ant build`, point apache at the publish directory
 * Backbone.js: MIT on [GitHub](https://github.com/documentcloud/backbone)
 * Underscore.js: MIT on [GitHub](http://github.com/documentcloud/underscore)
 * Mustache.js: MIT on [GitHub](https://github.com/janl/mustache.js)
+* ICanHaz.js: MIT on [GitHub](https://github.com/andyet/ICanHaz.js)
 * Jasmine: MIT on [GitHub](https://github.com/pivotal/jasmine)
 * jasmine-jquery: MIT on [GitHub](https://github.com/velesin/jasmine-jquery)
 * jquery-mockjax: GPL/MIT license [GitHub](https://github.com/appendto/jquery-mockjax)

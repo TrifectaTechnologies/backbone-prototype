@@ -9,11 +9,8 @@ var MovieView = Backbone.View.extend({
 	},
 
 	render: function() {
-		var template = '\
-		<li id="movie_{{ cid }}"><span class="title">{{ title }}</span> <span>{{ format }}</span>   <a href="#movies/remove/{{ cid }}">x</a></li>\
-		';
 		var context = _.extend(this.model.toJSON(), {cid: this.model.cid});
-		$(this.el).html(Mustache.to_html(template, context));
+		$(this.el).html(ich.movieView(context));
 		return this;
 	},
 
@@ -34,11 +31,7 @@ var MovieAppView = Backbone.View.extend({
 	},
 
 	render: function() {
-		var template = '\
-			<h1>Movie App</h1>\
-			<a href="#movies/add">add new movie</a>\
-			<ul id="movieList"></ul>';
-		$(this.el).html(Mustache.to_html(template, this.model.toJSON()));
+		$(this.el).html(ich.appView({}));
 		this.movieList = this.$('#movieList');
 		return this;
 	},
