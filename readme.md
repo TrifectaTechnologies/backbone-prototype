@@ -5,7 +5,7 @@ experiment to serve as a prototype and example for future development directions
 
 ## Reference/Thanks:
 
-* Check out responsive.html for a simple visual media query test. (Thanks (http://bricss.net/post/16538278376/simple-responsive-design-test-page)!)
+* Check out responsive.html for a simple visual media query test. (Thanks [Bricss](http://bricss.net/post/16538278376/simple-responsive-design-test-page)!)
 * Current backbone.js example based on this [article](http://andyet.net/blog/2010/oct/29/building-a-single-page-app-with-backbonejs-undersc/) and this [gist](https://gist.github.com/1316575)
 
 ## Usage
